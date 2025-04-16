@@ -1,0 +1,42 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+#titolo {
+  color: darkblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #cce;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+p, ul, ol {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+ul, ol {
+  padding-left: 40px;
+}
